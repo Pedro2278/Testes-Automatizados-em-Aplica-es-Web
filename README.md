@@ -6,6 +6,8 @@ Este projeto tem como objetivo realizar testes automatizados de funcionalidades 
 
 O código está estruturado da seguinte forma:
 
+estSite/ ├── src/ │ └── TestSite.java # Arquivo principal com os testes automatizados ├── pom.xml # Arquivo de configuração do Maven └── README.md # Este arquivo de documentação
+
 
 - **TestSite.java**: Contém os testes automatizados para o site usando Selenium e JUnit. Os testes cobrem funcionalidades como login, interação com formulários e carrinho de compras.
   
@@ -40,6 +42,9 @@ O código está estruturado da seguinte forma:
 
 Ao rodar os testes com Maven, você verá uma saída como a seguinte no console:
 
+T E S T S
+Running TestSite.TesteSite Testando login válido... Testando login inválido... Testando formulário preenchido corretamente... Testando campos obrigatórios... Testando adicionar produto ao carrinho... Testando remover produto do carrinho...
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.48 sec
 
 Isso indica que todos os testes foram executados com sucesso e passaram sem falhas.
 
@@ -52,11 +57,19 @@ Contribuições para este projeto são bem-vindas! Para contribuir, siga os pass
    ```bash
    git checkout -b minha-nova-feature
 
-### Detalhes Importantes:
-- **Estrutura do Código**: A descrição clara da estrutura do seu projeto ajuda qualquer colaborador a entender como o código está organizado.
-- **Exemplo de Saída**: Incluímos um exemplo de como seria a saída dos testes no terminal para ajudar os desenvolvedores a verificarem o que esperar.
-- **Contribuições**: Um guia simples para qualquer pessoa que queira contribuir com melhorias para o projeto.
+3 - Faça as modificações e commit as mudanças:
 
-Esse `README.md` serve como um guia abrangente para quem for usar ou contribuir para o seu projeto. Se precisar de mais alguma coisa ou ajustes, só avisar!
+git commit -am 'Adicionando nova funcionalidade'
+
+4 - Envie para o repositório remoto:
+
+git push origin minha-nova-feature
+
+5 - Crie um Pull Request para que possamos revisar suas alterações.
+Certifique-se de que seu código esteja devidamente testado antes de enviar o pull request.
+
 Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+
+Agora, você pode copiar o conteúdo completo para o arquivo `README.md` do seu projeto. Se precisar de mais algum ajuste, estou à disposição!
